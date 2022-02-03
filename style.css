@@ -1,0 +1,29 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  /* background-image: url("assets/backg.jpg"); */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* #canvas {
+  width: 100vw;
+  height: 100vh;
+  background-color: #141517;
+} */
+
+#canvas {
+  width: 100vw;
+  height: 100vh;
+  filter: contrast(100%) brightness(100%);
+  /* background: radial-gradient(
+      circle at 6% -50%,
+      rgb(255, 0, 0),
+      rgba(130, 101, 255, 0)
+    ),
+    linear-gradient(360deg, rgb(246, 7, 7), rgba(222, 176, 37, 0)),
+    url(/svgs/grain.svg); */
+  background-color: rgb(209, 52, 52);
+}
